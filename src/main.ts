@@ -3,6 +3,9 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
+import '@cds/core/alert/register.js';
+import '@cds/core/button/register.js';
+
 
 if (environment.production) {
   enableProdMode();
